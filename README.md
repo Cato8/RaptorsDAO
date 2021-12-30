@@ -9,3 +9,6 @@ To get started with this course, clone this repo and follow these commands:
 
 ### **Questions?**
 Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
+
+
+the color palette i used for the site, available on [coolors](https://coolors.co/753bbd-080708-df2935-f3eff5) 

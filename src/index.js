@@ -20,6 +20,7 @@ ReactDOM.render(
       supportedChainIds={supportedChainIds}
     >
       <App />
+      
     </ThirdwebWeb3Provider>
   </React.StrictMode>,
   document.getElementById('root')

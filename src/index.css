@@ -1,12 +1,16 @@
 html,
 body {
-  margin: 0;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #753BBD;
-  color: #fff;
+  color: #F3EFF5;
   overflow-x: hidden;
+  display:flex;
+  justify-content: center;
 }
 #root {
   min-height: 100vh;
@@ -93,7 +97,7 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #dcdcdc;
+  color: #F3EFF5;
 }
 
 .member-page form .card > div {
@@ -107,7 +111,7 @@ h1 {
 }
 
 .card {
-  background-color: rgb(41, 40, 40);
+  background-color: #080708;
   padding: 1rem;
   border-radius: 1rem;
   color: rgb(237, 237, 237);
@@ -116,8 +120,8 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: #080708;
+  color: #F3EFF5;
   border: none;
   font-weight: bold;
   font-family: inherit;
@@ -128,7 +132,7 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: #DF2935;
 }
 
 button:focus {
@@ -142,8 +146,38 @@ button:disabled {
 .CenterLogo {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
 .logo {
   width: 200px;
   
+}
+
+.footerDiv {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerStyle{
+  fontSize: 20px;
+  color: #F3EFF5;
+  borderTop: 1px solid #E7E7E7;
+  padding: 20px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pFooter{
+  opacity: 75%;
+  text-transform: uppercase;
+
+}
+.linkSytle{
+  color: #F3EFF5;
+  text-decoration: none; /* no underline */
 }

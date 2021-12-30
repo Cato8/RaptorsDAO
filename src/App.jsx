@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import {FaDiscord, FaTwitter} from "react-icons/fa";
 import { ethers } from "ethers";
 import { ThirdwebSDK } from "@3rdweb/sdk"; 
 
@@ -167,15 +168,25 @@ if (error && error.name === "UnsupportedChainIdError") {
   // to your web app. Let them call connectWallet.
   if (!address) {
     return (
+      <div className="body">
       <div className="landing">
-      <div className="CenterLogo">
-        <img className="logo" src={logo} alt="logo"/>
-      </div>
+        <div className="CenterLogo">
+          <img className="logo" src={logo} alt="logo"/>
+        </div>
         <h1>Welcome to RaptorsDAO</h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
       </div>
+      <div className="footerDiv">
+        <div>
+          <FaDiscord  style={{fontSize: '35px'}}/> <FaTwitter style={{fontSize: '35px'}} />
+        </div>
+        <div className="footerStyle">
+           <p className="pFooter">©2021 - Build by toto8 with <a className="linkSytle" href="https://buildspace.so/" target="_blank" rel="noopener">buildspace</a> tutorial</p>
+        </div>
+      </div>
+    </div>
     );
   }
   if (hasClaimedNFT) {
