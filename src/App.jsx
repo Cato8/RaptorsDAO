@@ -168,6 +168,9 @@ if (error && error.name === "UnsupportedChainIdError") {
   if (!address) {
     return (
       <div className="landing">
+      <div className="CenterLogo">
+        <img className="logo" src={logo} alt="logo"/>
+      </div>
         <h1>Welcome to RaptorsDAO</h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
